@@ -42,7 +42,7 @@ time_between_enemies = 200
 x_pos=0
 y_pos = screen_height
 points = 0
-lives=5
+lives=10
 speed=4
 
 while is_game_running:
@@ -193,7 +193,7 @@ while is_game_running:
                     last_enemy_time = 0
                     speed=4
         points =0
-        lives=5
+        lives = 10
         mouse_x, mouse_y = pygame.mouse.get_pos()
         if start_button_rect.collidepoint(mouse_x, mouse_y):
             start_button_color = [155,249,100]
